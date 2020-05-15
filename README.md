@@ -46,19 +46,19 @@
 
 ## 参数 Options
 
-### tree Array required:true
+### tree: Array required:true
 树形数据,默认[]
 
-### option Object:{itemHeight: 25} required:false
+### option: Object:{itemHeight: 25} required:false
  树每个节点高度
 
-### lazy Boolean required:false
+### lazy: Boolean required:false
 是否支持懒加载,默认false
 
-### load Function required:false
+### load: Function required:false
 加载下一级方法，参数为当前节点对象
 
-### filterMethod required:false
+### filterMethod: required:false
 过滤条件，第一个参数为当前值，第二个对象为当前节点对象, 返回true和false
 
 ## 事件 Events
